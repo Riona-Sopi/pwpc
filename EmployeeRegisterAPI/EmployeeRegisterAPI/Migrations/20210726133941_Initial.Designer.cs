@@ -8,9 +8,9 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace EmployeeRegisterAPI.Migrations
 {
-    [DbContext(typeof(EmployeeDbContext))]
-    [Migration("20200922120123_InitialCreate")]
-    partial class InitialCreate
+    [DbContext(typeof(DataContext))]
+    [Migration("20210726133941_Initial")]
+    partial class Initial
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {

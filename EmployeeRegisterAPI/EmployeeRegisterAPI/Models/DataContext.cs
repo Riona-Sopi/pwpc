@@ -6,13 +6,14 @@ using System.Threading.Tasks;
 
 namespace EmployeeRegisterAPI.Models
 {
-    public class EmployeeDbContext:DbContext
+    public class DataContext:DbContext
     {
-        public EmployeeDbContext(DbContextOptions<EmployeeDbContext> options):base(options)
+        public DataContext(DbContextOptions<DataContext> options):base(options)
         {
 
         }
 
         public DbSet<EmployeeModel> Employees { get; set; }
+        public DbSet<ProductModel> Products { get; set; }
     }
 }

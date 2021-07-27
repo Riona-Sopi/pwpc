@@ -10,7 +10,7 @@ export default function EmployeeList() {
         refreshEmployeeList();
     }, [])
 
-    const employeeAPI = (url = 'https://localhost:44353/api/Employee/') => {
+    const employeeAPI = (url = url = process.env.REACT_APP_API_URL + '/Employee/') => {
         return {
             fetchAll: () => axios.get(url),
             create: newRecord => axios.post(url, newRecord),

@@ -15,10 +15,10 @@ namespace EmployeeRegisterAPI.Controllers
     [ApiController]
     public class EmployeeController : ControllerBase
     {
-        private readonly EmployeeDbContext _context;
+        private readonly DataContext _context;
         private readonly IWebHostEnvironment _hostEnvironment;
 
-        public EmployeeController(EmployeeDbContext context, IWebHostEnvironment hostEnvironment)
+        public EmployeeController(DataContext context, IWebHostEnvironment hostEnvironment)
         {
             _context = context;
             this._hostEnvironment = hostEnvironment;

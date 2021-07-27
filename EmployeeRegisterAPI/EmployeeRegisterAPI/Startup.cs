@@ -32,7 +32,7 @@ namespace EmployeeRegisterAPI
         {
             services.AddControllers();
 
-            services.AddDbContext<EmployeeDbContext>(options =>
+            services.AddDbContext<DataContext>(options =>
             options.UseSqlServer(Configuration.GetConnectionString("DevConnection")));
 
             services.AddCors();
@@ -50,6 +50,8 @@ namespace EmployeeRegisterAPI
                 app.UseDeveloperExceptionPage();
             }
 
+            app.UseDefaultFiles();
+
             app.UseStaticFiles(new StaticFileOptions
             {
                 FileProvider = new PhysicalFileProvider(Path.Combine(env.ContentRootPath, "Images")),
@@ -65,6 +67,8 @@ namespace EmployeeRegisterAPI
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllers();
+                endpoints.MapFallbackToController("Index", "Fallback");
+
             });
         }
     }

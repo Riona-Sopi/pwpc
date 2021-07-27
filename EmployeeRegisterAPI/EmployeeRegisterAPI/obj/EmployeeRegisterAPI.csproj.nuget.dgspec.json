@@ -1,23 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "F:\\profession\\CodAffection\\React JS\\Image Updload with Asp.Net Core\\project\\EmployeeRegisterAPI\\EmployeeRegisterAPI\\EmployeeRegisterAPI.csproj": {}
+    "C:\\Users\\Riona\\source\\repos\\React-Asp.Net-Core-API---Image-Upload-Retrieve-Update-and-Delete-\\EmployeeRegisterAPI\\EmployeeRegisterAPI\\EmployeeRegisterAPI.csproj": {}
   },
   "projects": {
-    "F:\\profession\\CodAffection\\React JS\\Image Updload with Asp.Net Core\\project\\EmployeeRegisterAPI\\EmployeeRegisterAPI\\EmployeeRegisterAPI.csproj": {
+    "C:\\Users\\Riona\\source\\repos\\React-Asp.Net-Core-API---Image-Upload-Retrieve-Update-and-Delete-\\EmployeeRegisterAPI\\EmployeeRegisterAPI\\EmployeeRegisterAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\profession\\CodAffection\\React JS\\Image Updload with Asp.Net Core\\project\\EmployeeRegisterAPI\\EmployeeRegisterAPI\\EmployeeRegisterAPI.csproj",
+        "projectUniqueName": "C:\\Users\\Riona\\source\\repos\\React-Asp.Net-Core-API---Image-Upload-Retrieve-Update-and-Delete-\\EmployeeRegisterAPI\\EmployeeRegisterAPI\\EmployeeRegisterAPI.csproj",
         "projectName": "EmployeeRegisterAPI",
-        "projectPath": "F:\\profession\\CodAffection\\React JS\\Image Updload with Asp.Net Core\\project\\EmployeeRegisterAPI\\EmployeeRegisterAPI\\EmployeeRegisterAPI.csproj",
-        "packagesPath": "C:\\Users\\Shamseer\\.nuget\\packages\\",
-        "outputPath": "F:\\profession\\CodAffection\\React JS\\Image Updload with Asp.Net Core\\project\\EmployeeRegisterAPI\\EmployeeRegisterAPI\\obj\\",
+        "projectPath": "C:\\Users\\Riona\\source\\repos\\React-Asp.Net-Core-API---Image-Upload-Retrieve-Update-and-Delete-\\EmployeeRegisterAPI\\EmployeeRegisterAPI\\EmployeeRegisterAPI.csproj",
+        "packagesPath": "C:\\Users\\Riona\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Riona\\source\\repos\\React-Asp.Net-Core-API---Image-Upload-Retrieve-Update-and-Delete-\\EmployeeRegisterAPI\\EmployeeRegisterAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Shamseer\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Riona\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -29,6 +31,7 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         },
@@ -40,6 +43,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "Microsoft.AspNetCore.Cors": {
               "target": "Package",
@@ -78,6 +82,12 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[3.1.15, 3.1.15]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -86,7 +96,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     }
